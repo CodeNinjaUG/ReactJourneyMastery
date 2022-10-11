@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => {
     </div>
     <div>
         <span>{movie.Type}</span>
-         <h1> {movie.Title}</h1>
+         <h4> {movie.Title}</h4>
      </div>
     </div>
     )

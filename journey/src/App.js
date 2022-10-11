@@ -59,7 +59,7 @@ const App = () => {
      setMovies(data.Search);
   }
   useEffect(() => {
-    searchMovies('Spiderman')
+    searchMovies('batman')
   },[]);
   return (
      <div className="app">
@@ -85,7 +85,7 @@ const App = () => {
             </div>
            ) : (
             <div className="empty">
-               <h1> No Movies Found</h1>
+               <h6> No Movies Found</h6>
             </div>
           )
          }
